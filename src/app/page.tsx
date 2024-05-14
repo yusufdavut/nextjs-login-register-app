@@ -1,7 +1,10 @@
+"use client";
+
+import { redirect } from "next/navigation";
+import { useEffect } from "react";
+
 export default function Home() {
-  return (
-    <main className="flex w-full h-screen items-center justify-center text-6xl">
-      Login Register
-    </main>
-  );
+  useEffect(() => {
+    redirect("/login");
+  }, []);
 }
