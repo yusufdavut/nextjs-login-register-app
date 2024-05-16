@@ -2,7 +2,7 @@
  * @Author: yusuf.davut
  * @Date:   2024-05-14 16:48:40
  * @Last Modified by:   yusuf.davut
- * @Last Modified time: 2024-05-14 23:29:26
+ * @Last Modified time: 2024-05-15 11:19:30
  */
 import type { Config } from "tailwindcss";
 
